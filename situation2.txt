@@ -1,1 +1,13 @@
 Description des etapes 
+6f442c0 ajout du fichier situation2.txt avec les etapes suivies pour la situation 2
+5cde423 Revert "injection de l'erreur dans textA.txt"
+6fe587d ajout Dossier_B\textB2.txt
+65f2006 injection de l'erreur dans textA.txt
+748f0c8 ajout Dossier_B textB.txt
+311fed8 Ajout Dossier_A avec textA.txt
+6f442c0 ajout du fichier situation2.txt avec les etapes suivies pour la situation 2
+5cde423 Revert "injection de l'erreur dans textA.txt"
+6fe587d ajout Dossier_B\textB2.txt
+65f2006 injection de l'erreur dans textA.txt
+748f0c8 ajout Dossier_B textB.txt
+311fed8 Ajout Dossier_A avec textA.txt
