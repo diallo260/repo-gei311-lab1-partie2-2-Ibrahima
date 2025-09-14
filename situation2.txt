@@ -1,13 +1,48 @@
-Description des etapes 
-6f442c0 ajout du fichier situation2.txt avec les etapes suivies pour la situation 2
-5cde423 Revert "injection de l'erreur dans textA.txt"
-6fe587d ajout Dossier_B\textB2.txt
-65f2006 injection de l'erreur dans textA.txt
-748f0c8 ajout Dossier_B textB.txt
-311fed8 Ajout Dossier_A avec textA.txt
-6f442c0 ajout du fichier situation2.txt avec les etapes suivies pour la situation 2
-5cde423 Revert "injection de l'erreur dans textA.txt"
-6fe587d ajout Dossier_B\textB2.txt
-65f2006 injection de l'erreur dans textA.txt
-748f0c8 ajout Dossier_B textB.txt
-311fed8 Ajout Dossier_A avec textA.txt
+Situation 2 – Gérer une erreur injectée et revenir à une version fonctionnelle
+
+1. Membre A crée un repository sur GitHub sous le nom "repo-gei311-lab1-partie2-2-Ibrahima".  
+   Action : J’ai créé le repo GitHub et initialisé la branche main.
+
+2. Membre A clone le repository localement, crée un dossier "Dossier_A", et ajoute le fichier "textA.txt" contenant la phrase "labo 1, gestion de version, Ibrahima".  
+   Action : J’ai ajouté "Dossier_A/textA.txt" et fait un commit initial.
+
+3. Membre A fait un commit et synchronise le repository distant avec sa version locale.  
+   Action : J’ai utilisé `git add`, `git commit`, et `git push origin main`.
+
+4. Membre B clone ce repository, ajoute un dossier "Dossier_B", et crée le fichier "textB.txt" contenant la phrase "collaboration avec A".  
+   Action : En simulant B, j’ai ajouté "Dossier_B/textB.txt".
+
+5. Membre B fait un commit local de ce changement.  
+   Action : J’ai validé avec `git commit`.
+
+6. Membre B modifie "Dossier_A/textA.txt" et ajoute la ligne "erreur injectée".  
+   Action : J’ai ajouté l’erreur et commité la modification.
+
+7. Membre B ajoute un fichier "Dossier_B/textB2.txt" contenant la phrase "autre changement de B".  
+   Action : J’ai créé ce fichier et fait un commit supplémentaire.
+
+8. Membre B synchronise son repository local avec GitHub.  
+   Action : J’ai poussé toutes les modifications sur le repo distant.
+
+9. Membre A crée un issue pour signaler l’erreur dans "Dossier_A/textA.txt".  
+   Action : J’ai ouvert un issue sur GitHub décrivant le problème.
+
+10. Membre B répond à l’issue en indiquant le commit problématique et la dernière version correcte.  
+   Action : J’ai mentionné le commit fautif et le dernier commit stable.
+
+11. Membre A utilise l’historique des commits pour revenir à la dernière version correcte.  
+   Action : J’ai fait un "git revert" du commit contenant l’erreur.
+
+12. Membre B liste son historique local avec "git log --oneline".  
+   Action : J’ai vérifié les commits pour identifier l’ordre des changements.
+
+13. Membre B revient au dernier commit correct (avant l’erreur).  
+   Action : J’ai restauré l’état précédent.
+
+14. Membre B refait les changements valides (ajout de "textB2.txt").  
+   Action : J’ai recréé le fichier corrigé.
+
+15. Membre B fait un commit local et synchronise son repository avec GitHub.  
+   Action : J’ai commité et poussé la version corrigée.
+
+
